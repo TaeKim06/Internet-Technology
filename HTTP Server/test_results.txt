@@ -1,0 +1,33 @@
+Test Results
+=============
+1. No Username (POST at the root)
+HTTP/1.0 501 Not Implemented
+
+2. No Password (POST at the root)
+HTTP/1.0 501 Not Implemented
+
+3. Username incorrect (POST at the root)
+HTTP/1.0 200 OK
+
+Login failed!
+4. Password incorrect (POST at the root)
+HTTP/1.0 200 OK
+
+Login failed!
+5. Correct User and Pass \nCookie (sessionID) for user: 0xce7f52d131def395
+6. New session \nNew Cookie (sessionID) for user: 0x21d99850bcdc2c16
+7. Invalid cookie (GET)
+HTTP/1.0 401 Unauthorized
+8. GET file with valid session cookie
+HTTP/1.0 200 OK
+
+The different snowstorm exhibits fee.
+\nCookie (sessionID) for user: 0xd808cff04218a09a
+9. GET file with valid session cookie
+HTTP/1.0 200 OK
+
+The numberless hall dusts father.
+10. GET file that does not exist
+HTTP/1.0 404 NOT FOUND
+11. GET file with valid session cookie after sleep
+HTTP/1.0 401 Unauthorized
